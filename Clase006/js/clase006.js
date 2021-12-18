@@ -95,8 +95,10 @@ do {
         parseInt(gasto1)
         alert("Compraste " + gasto1 + " " + zauniteWares[0].nombre + "(s). Gastaste " + (zauniteWares[0].precio * gasto1) + " P$.")
         zauniteWares[0].cantidad = zauniteWares[0].cantidad - gasto1
-        respuesta = prompt("Te interesa comprar más?")
-        respuesta.toLowerCase()
+        if (zauniteWares[0].cantidad > 0) {
+            respuesta = prompt("Te interesa comprar más?")
+            respuesta.toLowerCase()
+        }
         if ((zauniteWares[0].cantidad <= 0) && (respuesta == "si")) {
             alert("No te creas más listo que yo eh!")
             respuesta = "no"
@@ -108,8 +110,10 @@ do {
         parseInt(gasto2)
         alert("Compraste " + gasto2 + " " + zauniteWares[1].nombre + "(s). Gastaste " + (zauniteWares[1].precio * gasto2) + " P$.")
         zauniteWares[1].cantidad = zauniteWares[1].cantidad - gasto2
-        respuesta = prompt("Te interesa comprar más?")
-        respuesta.toLowerCase()
+        if (zauniteWares[1].cantidad > 0) {
+            respuesta = prompt("Te interesa comprar más?")
+            respuesta.toLowerCase()
+        }
         if ((zauniteWares[1].cantidad <= 0) && (respuesta == "si")) {
             alert("No te creas más listo que yo eh!")
             respuesta = "no"
@@ -121,8 +125,10 @@ do {
         parseInt(gasto3)
         alert("Compraste " + gasto3 + " " + zauniteWares[2].nombre + "(s). Gastaste " + (zauniteWares[2].precio * gasto3) + " P$.")
         zauniteWares[2].cantidad = zauniteWares[2].cantidad - gasto3
-        respuesta = prompt("Te interesa comprar más?")
-        respuesta.toLowerCase()
+        if (zauniteWares[2].cantidad > 0) {
+            respuesta = prompt("Te interesa comprar más?")
+            respuesta.toLowerCase()
+        }
         if ((zauniteWares[2].cantidad <= 0) && (respuesta == "si")) {
             alert("No te creas más listo que yo eh!")
             respuesta = "no"
@@ -134,8 +140,10 @@ do {
         parseInt(gasto4)
         alert("Compraste " + gasto4 + " " + zauniteWares[3].nombre + "(s). Gastaste " + (zauniteWares[3].precio * gasto4) + " P$.")
         zauniteWares[3].cantidad = zauniteWares[3].cantidad - gasto4
-        respuesta = prompt("Te interesa comprar más?")
-        respuesta.toLowerCase()
+        if (zauniteWares[3].cantidad > 0) {
+            respuesta = prompt("Te interesa comprar más?")
+            respuesta.toLowerCase()
+        }
         if ((zauniteWares[3].cantidad <= 0) && (respuesta == "si")) {
             alert("No te creas más listo que yo eh!")
             respuesta = "no"
