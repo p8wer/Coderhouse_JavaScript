@@ -20,7 +20,7 @@ CLASE 005 - OBJETOS
 
 */
 
-/*
+
 class BombaPowder {
     constructor(nombre, tamaño, color, animal) {
         this.nombre = nombre
@@ -38,7 +38,6 @@ class BombaPowder {
         }
     }
 }
-*/
 
 /*
 nombre es string
@@ -47,7 +46,7 @@ color es string
 animal es string
 */
 
-/*
+
 pregBomb1 = prompt("¿Cómo llamaremos a la bomba?")
 pregBomb2 = prompt("¿Qué tan alta va a ser?")
 parseInt(pregBomb2)
@@ -56,7 +55,6 @@ pregBomb4 = prompt("Y para terminar... ¿en qué animal esta basada?")
 const miPrimerBombucha = new BombaPowder(pregBomb1, pregBomb2, pregBomb3, pregBomb4)
 miPrimerBombucha.loggear()
 miPrimerBombucha.existir() //boom!
-*/
 
 /*
 
